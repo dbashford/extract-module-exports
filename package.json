@@ -22,7 +22,7 @@
     "amd"
   ],
   "dependencies": {
-    "esprima": "1.2.2"
+    "acorn": "0.7.0"
   },
   "devDependencies": {
     "mocha": "1.9.0",
