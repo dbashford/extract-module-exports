@@ -1,0 +1,39 @@
+{
+  "name": "extract-module-exports",
+  "version": "0.1.0",
+  "homepage": "https://github.com/dbashford/extract-module-exports",
+  "author": "David Bashford",
+  "description": "Uses Esprima to extract the names of AMD/CommonJS variable exports",
+  "contributors": [
+    {
+      "name": "David Bashford",
+      "email": "dbashford@hotmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dbashford/extract-module-exports"
+  },
+  "keywords": [
+    "mimosa",
+    "mmodule",
+    "exports",
+    "commonjs",
+    "amd"
+  ],
+  "dependencies": {
+    "esprima": "1.2.2"
+  },
+  "devDependencies": {
+    "mocha": "1.9.0",
+    "chai": "1.5.0"
+  },
+  "scripts": {
+     "test": "node_modules/.bin/mocha"
+   },
+  "main": "./src/index",
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10"
+  }
+}
